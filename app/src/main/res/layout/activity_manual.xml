@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/amarillo"
+    tools:context=".Manual">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="340dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="117dp"
+        android:background="#4BC90F "
+        android:fontFamily="@font/knewave"
+        android:text="  USO DE LA APLICACIÓN"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.663"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.071" />
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="387dp"
+        android:layout_height="599dp"
+        android:background="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.878">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView21"
+                android:layout_width="match_parent"
+                android:layout_height="418dp"
+                app:srcCompat="@drawable/inicio" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/knewave"
+                android:text="a)	Inmediatamente después de abrir la aplicación veremos un apartado en la pantalla, en esta se mostrará el SPLASH del aplicativo y nos redirigirá al LOGIN donde se ingresara al perfil del usuario ya ingresado para que solamente presionando en el botón de INICIAR SESIÓN se ingrese inmediatamente, si en caso no se tiene una cuenta también estará habilitado el botón de CREAR CUENTA, el cual abrirá otra pantalla para crear una cuenta."
+                android:textColor="@android:color/holo_orange_light"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/trabajao" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/knewave"
+                android:text="b)	Seguidamente, después de iniciar sesión o crear una cuenta, tendremos el acceso a una pantalla que viene hacer el menú principal de la aplicación, en el que tendremos acceso a poder elegir qué trabajo requerimos para así poder contratarlo."
+                android:textColor="@android:color/holo_orange_light"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView23"
+                android:layout_width="match_parent"
+                android:layout_height="430dp"
+                app:srcCompat="@drawable/conta" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/knewave"
+                android:text="c) Paso siguiente nos mostrará a los trabajadores que hay disponibles donde nos encontremos para que puedan a venir a realizar el trabajo que requerimos."
+                android:textColor="@android:color/holo_orange_light" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
